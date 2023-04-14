@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: 0%;
+}
+
+h1{
+    font-style: italic;
+    color: blue;
+}
+
+ul{
+    list-style-image: url('images/pointer-icon.png');
+}
+
+table{
+    width: 100%
+    border-collapse: collapse;
+}
+
+td{
+    padding: 15px;
+    text-align: center;
+}
+
+tr:hover{background-color: aqua;}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th {
+    background-color: #690d9e;
+    color: white;
+  }
